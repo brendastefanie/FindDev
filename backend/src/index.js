@@ -6,7 +6,7 @@ const app = express()
 
 
 //Conexão com o mongodb
-mongoose.connect('mongodb+srv://BRENDA:322745@cluster0-w8byl.mongodb.net/week10?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://BRENDA:password@cluster0-w8byl.mongodb.net/week10?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
